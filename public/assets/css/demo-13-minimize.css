@@ -1,0 +1,223 @@
+
+.sidebar-shop .widget {
+  padding-bottom: 2.5rem;
+  margin-bottom: 3rem;
+  padding-left: .8rem;
+  padding-right: .8rem;
+}
+
+.sidebar-shop .widget-title {
+  margin-bottom: 1.7rem;
+}
+
+.sidebar-shop .widget-banner-sidebar {
+  border-bottom: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.sidebar-shop .custom-control-label {
+  color: #666;
+}
+
+.sidebar-shop .widget-categories {
+  padding-bottom: .5rem;
+}
+
+.sidebar-shop .filter-colors {
+  margin-left: -.3rem;
+  margin-right: -.3rem;
+}
+
+.custom-control.custom-radio .custom-control-input:checked ~ .custom-control-label::before {
+  border-color: #333;
+}
+
+.custom-control.custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+  background-color: #333;
+}
+
+.filter-item .ratings-container {
+  margin-bottom: 0;
+  margin-top: .5rem;
+}
+
+.widget-categories .acc-item {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  margin-bottom: .9rem;
+}
+
+.widget-categories .acc-item:last-child {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.widget-categories h5 {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  letter-spacing: -.01em;
+  margin-bottom: 0;
+}
+
+.widget-categories h5 a {
+  position: relative;
+  display: block;
+  padding: 0;
+  color: #3399ff;
+}
+
+.widget-categories h5 a:before {
+  color: #333;
+  content: '\e802';
+  display: inline-block;
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  font: normal 1rem/1 "molla";
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transition: all 0.3s;
+}
+
+.widget-categories h5 a.collapsed {
+  color: #333;
+}
+
+.widget-categories h5 a.collapsed:hover, .widget-categories h5 a.collapsed:focus {
+  color: #3399ff;
+}
+
+.widget-categories h5 a.collapsed:before {
+  content: '\f110';
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+
+.widget-categories .collapse-wrap {
+  padding: .4rem 0 0;
+}
+
+.widget-categories ul {
+  margin: 0;
+}
+
+.widget-categories ul li {
+  margin: 0;
+}
+
+.widget-categories ul a {
+  display: block;
+  font-weight: 300;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: #666;
+  padding: .5rem 0;
+}
+
+.widget-categories ul a:hover, .widget-categories ul a:focus {
+  color: #3399ff;
+}
+
+.banner-poster .banner-content {
+  left: 3rem;
+  bottom: auto;
+  padding-top: 0;
+  display: block;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.banner-poster .banner-content-right {
+  left: auto;
+  right: 3rem;
+}
+
+.banner-poster .banner-subtitle {
+  margin-bottom: 1.1rem;
+}
+
+.banner-poster .banner-title {
+  font-size: 2rem;
+  margin-bottom: 1.4rem;
+}
+
+.banner-poster .banner-link:not(:hover):not(:focus) {
+  background-color: rgba(102, 102, 102, 0.2);
+}
+
+.category-banners-slider.owl-nav-inside .owl-nav [class*="owl-"] {
+  color: #666;
+}
+
+.category-banners-slider.owl-nav-inside .owl-nav .owl-prev {
+  left: 1rem;
+}
+
+.category-banners-slider.owl-nav-inside .owl-nav .owl-next {
+  right: 1rem;
+}
+
+
+
+.cat-blocks-container {
+  padding-top: .5rem;
+}
+
+.cat-blocks-container [class*="col-"] {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.cat-block-title {
+  color: #666666;
+  font-weight: 400;
+  font-size: 1.4rem;
+  letter-spacing: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  transition: color .35s ease;
+}
+
+.cat-block {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 3rem;
+  background-color: #fff;
+  border-radius: .4rem;
+  transition: box-shadow .35s ease;
+  min-height: 160px;
+  padding-bottom: 1.5rem;
+}
+
+.cat-block figure {
+  display: flex;
+  align-items: center;
+  position: relative;
+  min-height: 124px;
+  margin: 0;
+}
+
+.cat-block figure span {
+  position: relative;
+}
+
+.cat-block img {
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 0.35s ease;
+}
+
+.cat-block:hover {
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.08);
+}
+
+.cat-block:hover .cat-block-title {
+  color: #3399ff;
+}

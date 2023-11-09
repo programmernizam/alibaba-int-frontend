@@ -1,0 +1,564 @@
+.owl-theme {
+  .owl-nav {
+    [class*='owl-'] {
+      color: #c96;
+
+      &:not(.disabled) {
+        &:hover {
+          border-color: #c96;
+          background: #c96;
+        }
+      }
+    }
+  }
+}
+
+.owl-theme.owl-light {
+  .owl-nav {
+    [class*='owl-'] {
+      &:not(.disabled) {
+        &:hover {
+          border-color: #c96;
+        }
+      }
+    }
+  }
+
+  .owl-dots {
+    .owl-dot {
+      &:hover {
+        span {
+          border-color: #c96;
+          background: #c96;
+        }
+      }
+    }
+
+    .owl-dot.active {
+      span {
+        border-color: #c96;
+        background: #c96;
+      }
+    }
+  }
+}
+
+.owl-full {
+  .owl-nav {
+    [class*='owl-'] {
+      color: #c96;
+
+      &:hover {
+        color: #c96;
+      }
+
+      &:focus {
+        color: #c96;
+      }
+    }
+  }
+
+  .owl-dots {
+    .owl-dot {
+      span {
+        border-color: #c96;
+      }
+
+      &:hover {
+        span {
+          border-color: #c96;
+          background: #c96;
+        }
+      }
+    }
+
+    .owl-dot.active {
+      span {
+        border-color: #c96;
+        background: #c96;
+      }
+    }
+  }
+}
+
+.owl-full.owl-nav-dark {
+  .owl-nav {
+    [class*='owl-'] {
+      &:hover {
+        color: #c96;
+      }
+
+      &:focus {
+        color: #c96;
+      }
+    }
+  }
+}
+
+.owl-simple {
+  .owl-nav {
+    [class*='owl-'] {
+      &:not(.disabled) {
+        &:hover {
+          color: #c96;
+        }
+      }
+    }
+  }
+}
+
+.owl-simple.owl-light {
+  .owl-dots {
+    .owl-dot {
+      &:hover {
+        span {
+          border-color: #c96;
+          background: #c96;
+        }
+      }
+    }
+
+    .owl-dot.active {
+      span {
+        border-color: #c96;
+        background: #c96;
+      }
+    }
+  }
+}
+
+.quickView-content {
+  .owl-theme.owl-light {
+    .owl-nav {
+      [class*='owl-'] {
+        border: none;
+        font-size: 3rem;
+        color: #fff;
+
+        &:hover {
+          color: #c96;
+          background-color: transparent;
+        }
+
+        &:focus {
+          color: #c96;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+
+  .details-action-wrapper {
+    .btn-product {
+      &:hover {
+        span {
+          color: #c96;
+          box-shadow: 0 1px 0 0 #c96;
+        }
+      }
+
+      &:focus {
+        span {
+          color: #c96;
+          box-shadow: 0 1px 0 0 #c96;
+        }
+      }
+    }
+  }
+
+  .product-details-action {
+    .btn-cart {
+      transition: color .3s;
+
+      &:hover {
+        border-color: #c96;
+        background-color: #c96;
+        color: #fff;
+      }
+
+      &:focus {
+        border-color: #c96;
+        background-color: #c96;
+        color: #fff;
+      }
+    }
+  }
+
+  .btn-wishlist {
+    border: none;
+
+    &:before {
+      color: #c96;
+    }
+
+    &:hover {
+      color: #c96;
+      background-color: transparent;
+
+      span {
+        color: #c96;
+      }
+    }
+
+    &:focus {
+      color: #c96;
+      background-color: transparent;
+
+      span {
+        color: #c96;
+      }
+    }
+  }
+
+  .btn-compare {
+    border: none;
+
+    &:before {
+      color: #c96;
+    }
+
+    &:hover {
+      color: #c96;
+      background-color: transparent;
+
+      span {
+        color: #c96;
+      }
+    }
+
+    &:focus {
+      color: #c96;
+      background-color: transparent;
+
+      span {
+        color: #c96;
+      }
+    }
+  }
+
+  .btn-fullscreen {
+    &:hover {
+      color: #fff;
+      background-color: #c96;
+    }
+
+    &:focus {
+      color: #fff;
+      background-color: #c96;
+    }
+  }
+
+  .product-left {
+    .carousel-dot.active {
+      img {
+        opacity: 1;
+        box-shadow: 0 0 0 1px #c96;
+      }
+    }
+
+    .carousel-dot {
+      &:hover {
+        img {
+          opacity: 1;
+        }
+      }
+
+      &:focus {
+        img {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+.newsletter-popup-container {
+  .banner-title {
+    span {
+      color: #c96;
+    }
+  }
+}
+
+
+.owl-theme {
+  .owl-nav {
+    [class*='owl-'] {
+      color: #c96;
+
+      &:not(.disabled) {
+        &:hover {
+          border-color: #c96;
+          background: #c96;
+        }
+      }
+    }
+  }
+}
+
+.owl-theme.owl-light {
+  .owl-nav {
+    [class*='owl-'] {
+      &:not(.disabled) {
+        &:hover {
+          border-color: #c96;
+        }
+      }
+    }
+  }
+
+  .owl-dots {
+    .owl-dot {
+      &:hover {
+        span {
+          border-color: #c96;
+          background: #c96;
+        }
+      }
+    }
+
+    .owl-dot.active {
+      span {
+        border-color: #c96;
+        background: #c96;
+      }
+    }
+  }
+}
+
+.owl-full {
+  .owl-nav {
+    [class*='owl-'] {
+      color: #c96;
+
+      &:hover {
+        color: #c96;
+      }
+
+      &:focus {
+        color: #c96;
+      }
+    }
+  }
+
+  .owl-dots {
+    .owl-dot {
+      span {
+        border-color: #c96;
+      }
+
+      &:hover {
+        span {
+          border-color: #c96;
+          background: #c96;
+        }
+      }
+    }
+
+    .owl-dot.active {
+      span {
+        border-color: #c96;
+        background: #c96;
+      }
+    }
+  }
+}
+
+.owl-full.owl-nav-dark {
+  .owl-nav {
+    [class*='owl-'] {
+      &:hover {
+        color: #c96;
+      }
+
+      &:focus {
+        color: #c96;
+      }
+    }
+  }
+}
+
+.owl-simple {
+  .owl-nav {
+    [class*='owl-'] {
+      &:not(.disabled) {
+        &:hover {
+          color: #c96;
+        }
+      }
+    }
+  }
+}
+
+.owl-simple.owl-light {
+  .owl-dots {
+    .owl-dot {
+      &:hover {
+        span {
+          border-color: #c96;
+          background: #c96;
+        }
+      }
+    }
+
+    .owl-dot.active {
+      span {
+        border-color: #c96;
+        background: #c96;
+      }
+    }
+  }
+}
+
+.quickView-content {
+  .owl-theme.owl-light {
+    .owl-nav {
+      [class*='owl-'] {
+        border: none;
+        font-size: 3rem;
+        color: #fff;
+
+        &:hover {
+          color: #c96;
+          background-color: transparent;
+        }
+
+        &:focus {
+          color: #c96;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+
+  .details-action-wrapper {
+    .btn-product {
+      &:hover {
+        span {
+          color: #c96;
+          box-shadow: 0 1px 0 0 #c96;
+        }
+      }
+
+      &:focus {
+        span {
+          color: #c96;
+          box-shadow: 0 1px 0 0 #c96;
+        }
+      }
+    }
+  }
+
+  .product-details-action {
+    .btn-cart {
+      transition: color .3s;
+
+      &:hover {
+        border-color: #c96;
+        background-color: #c96;
+        color: #fff;
+      }
+
+      &:focus {
+        border-color: #c96;
+        background-color: #c96;
+        color: #fff;
+      }
+    }
+  }
+
+  .btn-wishlist {
+    border: none;
+
+    &:before {
+      color: #c96;
+    }
+
+    &:hover {
+      color: #c96;
+      background-color: transparent;
+
+      span {
+        color: #c96;
+      }
+    }
+
+    &:focus {
+      color: #c96;
+      background-color: transparent;
+
+      span {
+        color: #c96;
+      }
+    }
+  }
+
+  .btn-compare {
+    border: none;
+
+    &:before {
+      color: #c96;
+    }
+
+    &:hover {
+      color: #c96;
+      background-color: transparent;
+
+      span {
+        color: #c96;
+      }
+    }
+
+    &:focus {
+      color: #c96;
+      background-color: transparent;
+
+      span {
+        color: #c96;
+      }
+    }
+  }
+
+  .btn-fullscreen {
+    &:hover {
+      color: #fff;
+      background-color: #c96;
+    }
+
+    &:focus {
+      color: #fff;
+      background-color: #c96;
+    }
+  }
+
+  .product-left {
+    .carousel-dot.active {
+      img {
+        opacity: 1;
+        box-shadow: 0 0 0 1px #c96;
+      }
+    }
+
+    .carousel-dot {
+      &:hover {
+        img {
+          opacity: 1;
+        }
+      }
+
+      &:focus {
+        img {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+.newsletter-popup-container {
+  .banner-title {
+    span {
+      color: #c96;
+    }
+  }
+}

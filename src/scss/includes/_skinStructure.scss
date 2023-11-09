@@ -1,0 +1,42 @@
+/* Skin structure */
+::-moz-selection {
+  color: var(--select-text-font-color);
+  background-color: var(--select-text-bg-color);
+}
+
+::selection {
+  color: var(--select-text-font-color);
+  background-color: var(--select-text-bg-color);
+}
+
+.bg-primary {
+  background-color: $baseColor !important;
+}
+
+.bg-secondary {
+  background-color: #222 !important;
+}
+
+a {
+  color: $LinkColor;
+
+  &:hover {
+    color: #bf8040;
+  }
+
+  &:focus {
+    color: #bf8040;
+  }
+}
+
+.link-underline {
+  box-shadow: 0 1px 0 0 #c96;
+}
+
+.text-primary {
+  color: #c96 !important;
+}
+
+.text-secondary {
+  color: #222 !important;
+}

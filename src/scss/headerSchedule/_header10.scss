@@ -1,0 +1,297 @@
+.header-10 {
+	background-color: #fff;
+	.header-top {
+		font-size: 1.4rem;
+		background-color: #fafafa;
+		margin-bottom: 0;
+		.container {
+			&:after {
+				display: none;
+			}
+		}
+		.container-fluid {
+			&:after {
+				display: none;
+			}
+		}
+	}
+	.header-menu {
+		margin-top: 0;
+	}
+	.header-dropdown {
+		padding-top: .7rem;
+		padding-bottom: .7rem;
+		+ {
+			.header-dropdown {
+				margin-left: 2rem;
+			}
+		}
+		>a {
+			padding-right: 1.8rem;
+			&:after {
+				font-size: 1rem;
+				margin-top: -.6rem;
+			}
+		}
+		>span {
+			padding-right: 1.8rem;
+			&:after {
+				font-size: 1rem;
+				margin-top: -.6rem;
+			}
+		}
+	}
+	.top-menu {
+		text-transform: capitalize;
+		li {
+			+ {
+				li {
+					margin-left: 2rem;
+				}
+			}
+		}
+	}
+	.header-middle {
+		border-bottom: none;
+	}
+	.cart-dropdown {
+		padding-left: 1.4rem;
+		.dropdown-menu {
+			margin-top: 0;
+		}
+		&:not(:hover) {
+			&:not(.show) {
+				.dropdown-toggle {
+					color: #333;
+				}
+			}
+		}
+	}
+	.compare-dropdown {
+		padding-left: 1.4rem;
+		.dropdown-menu {
+			margin-top: 0;
+		}
+		&:not(:hover) {
+			&:not(.show) {
+				.dropdown-toggle {
+					color: #333;
+				}
+			}
+		}
+	}
+	.mobile-menu-toggler {
+		color: #333;
+		margin-left: 0;
+	}
+	.search-toggle {
+		&:not(:hover) {
+			&:not(:focus) {
+				color: #333;
+			}
+		}
+	}
+	.wishlist-link {
+		&:not(:hover) {
+			&:not(:focus) {
+				color: #333;
+			}
+		}
+	}
+	.sticky-header {
+		background-color: #f7f7f7;
+	}
+	.header-search-extended {
+		margin-right: 2.8rem;
+		margin-top: 2.25rem;
+		margin-bottom: 2.25rem;
+	}
+	.header-search {
+		.header-search-wrapper {
+			border-radius: .2rem;
+			border-color: #cc9966;
+		}
+		.btn {
+			border-radius: 0 .2rem .2rem 0;
+		}
+		.select-custom {
+			&:before {
+				left: auto;
+				right: 0;
+			}
+		}
+	}
+	.header-bottom {
+		background-color: #333;
+		.container {
+			display: block;
+		}
+		.col-lg-9 {
+			position: static;
+		}
+		.main-nav {
+			margin-left: 5.2rem;
+		}
+		.menu {
+			ul {
+				margin-top: 0;
+			}
+			.megamenu {
+				margin-top: 0;
+			}
+			>li {
+				&:not(:hover) {
+					&:not(.active) {
+						&:not(.show) {
+							>a {
+								color: #fff;
+							}
+						}
+					}
+				}
+				>a {
+					padding-top: 1.6rem;
+					padding-bottom: 1.6rem;
+					&:before {
+						background-color: #fff;
+					}
+				}
+			}
+		}
+		.mobile-menu-toggler {
+			color: #fff;
+		}
+	}
+	.menu {
+		>li {
+			&:hover {
+				>a {
+					color: #fff;
+				}
+			}
+		}
+		>li.show {
+			>a {
+				color: #fff;
+			}
+		}
+		>li.active {
+			>a {
+				color: #fff;
+			}
+		}
+	}
+	.category-dropdown {
+		.dropdown-toggle {
+			color: #fff;
+			text-transform: capitalize;
+			font-weight: 500;
+			font-size: 1.6rem;
+			letter-spacing: -.01em;
+			padding: 1.45rem 5rem 1.45rem 2rem;
+			background-color: #cc9966;
+			min-width: 100%;
+			&:before {
+				display: none;
+			}
+			&:after {
+				position: absolute;
+				right: 1.9rem;
+				top: 50%;
+				margin-top: -1.15rem;
+				font-weight: normal;
+				margin-left: 0;
+				float: right;
+			}
+		}
+		.dropdown-menu {
+			box-shadow: none;
+		}
+	}
+	.category-dropdown.show {
+		.dropdown-toggle {
+			&:after {
+				content: '\f131';
+			}
+		}
+	}
+	.menu-vertical {
+		ul {
+			li {
+				>a {
+					padding-top: .5rem;
+					padding-bottom: .5rem;
+				}
+			}
+		}
+		.menu-title {
+			color: #cc9966;
+		}
+		.menu-col {
+			margin-top: 1.6rem;
+		}
+	}
+}
+@media screen and (max-width: 991px) {
+	.header-10 {
+		.header-search-visible {
+			.header-search-wrapper {
+				&:before {
+					border-bottom-color: #dadada;
+				}
+			}
+		}
+		.top-menu {
+			&:not(.top-link-menu) {
+				ul {
+					margin-top: 0;
+				}
+			}
+		}
+	}
+}
+@media screen and (min-width: 1200px) {
+	.header-10 {
+		.header-search-extended {
+			margin-right: 6.6rem;
+		}
+	}
+}
+
+
+.header-10 {
+	.header-search {
+		.header-search-wrapper {
+			border-color: #c96;
+		}
+	}
+	.category-dropdown {
+		.dropdown-toggle {
+			background-color: #c96;
+		}
+	}
+	.menu-vertical {
+		.menu-title {
+			color: #c96;
+		}
+	}
+}
+
+
+.header-10 {
+	.header-search {
+		.header-search-wrapper {
+			border-color: #c96;
+		}
+	}
+	.category-dropdown {
+		.dropdown-toggle {
+			background-color: #c96;
+		}
+	}
+	.menu-vertical {
+		.menu-title {
+			color: #c96;
+		}
+	}
+}

@@ -1,0 +1,279 @@
+.header-31 {
+  position: absolute;
+  z-index: 100;
+  background: transparent;
+
+  a {
+    font-family: inherit;
+  }
+
+  .header-left {
+    flex: 1;
+  }
+
+  .header-middle {
+    border: none;
+
+    .menu.sf-arrows {
+      > li {
+        > a {
+          margin: 5.65rem 0;
+          padding: 1.5rem 1rem 1.1rem;
+          font-weight: 400;
+          color: #000;
+          letter-spacing: -.02em;
+        }
+
+        > a.sf-with-ul {
+          padding: 1.5rem 2.9rem 1.1rem 1rem;
+        }
+      }
+
+      > li.active {
+        > a {
+          padding: 1.5rem 2.9rem .9rem 1rem;
+          border-bottom: 2px solid;
+        }
+      }
+    }
+  }
+
+  .main-nav {
+    margin-left: 0;
+  }
+
+  .menu.sf-arrows {
+    .sf-with-ul {
+      &::after {
+        right: 1.15rem;
+        margin-top: -.5rem;
+        font-family: 'Font Awesome 5 Free';
+        content: '\f107';
+        font-size: 1.5rem;
+        font-weight: 900;
+        color: inherit;
+      }
+    }
+  }
+
+  .menu {
+    > li {
+      + {
+        li {
+          margin-left: 1.9rem;
+        }
+      }
+    }
+
+    .megamenu.megamenu-md {
+      margin-top: 0;
+      left: -9.6rem;
+    }
+
+    .megamenu.demo {
+      margin-top: 0;
+    }
+
+    li {
+      ul {
+        margin-top: 0;
+      }
+    }
+
+    .banner-title {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .banner-content.banner-content-top {
+      text-align: left;
+    }
+  }
+
+  figure {
+    margin: 0;
+  }
+
+  .header-right {
+    flex: 1;
+    justify-content: flex-end;
+  }
+
+  .header-search-visible {
+    .header-search-wrapper {
+      min-width: 230px;
+      margin-bottom: -.3rem;
+      border: none;
+      border-bottom: 1px solid #ebebeb;
+      border-radius: 0;
+
+      .btn {
+        position: absolute;
+        margin-top: 0;
+        right: .9rem;
+        color: #000;
+        font-size: 2.4rem;
+
+        &:hover {
+          color: #c96;
+        }
+
+        &:focus {
+          color: #c96;
+        }
+
+        &:active {
+          color: #c96;
+        }
+      }
+    }
+  }
+
+  .form-control {
+    height: 3.9rem;
+    padding: .9rem 4rem .9rem .9rem;
+    color: #999;
+
+    &::placeholder {
+      color: #999;
+    }
+  }
+
+  .wishlist-link {
+    position: relative;
+    margin-left: 4.3rem;
+    margin-bottom: -1.1rem;
+    font-size: 2rem;
+    color: #000;
+
+    &:hover {
+      color: #c96;
+    }
+
+    i {
+      font-family: 'Font Awesome 5 Free';
+    }
+
+    .wishlist-count {
+      position: absolute;
+      min-width: 1.6rem;
+      height: 1.6rem;
+      background: #c96;
+      top: -1rem;
+      right: -.9rem;
+    }
+  }
+
+  .cart-dropdown {
+    margin-bottom: -.9rem;
+    padding-left: 3.5rem;
+
+    .dropdown-toggle {
+      font-size: 3rem;
+      color: #000;
+    }
+
+    .cart-count {
+      position: absolute;
+      min-width: 1.6rem;
+      height: 1.6rem;
+      background: #c96;
+      top: -.3rem;
+      left: 1.8rem;
+    }
+
+    .dropdown-menu-right {
+      margin-top: -4rem;
+      right: 0;
+    }
+
+    &:hover {
+      .dropdown-toggle {
+        color: #c96;
+      }
+    }
+  }
+
+  .cart-text {
+    margin-left: 1.4rem;
+    margin-top: -0.6rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.4rem;
+    color: inherit;
+    letter-spacing: -.02em;
+  }
+
+  .mobile-menu-toggler {
+    font-size: 2.5rem;
+  }
+
+  .mobile-menu-wrapper {
+    .social-icon {
+      margin-right: 0;
+      border: none;
+    }
+  }
+}
+
+.header-31.header {
+  .menu.sf-arrows {
+    > li {
+      + {
+        li {
+          > a {
+            &::before {
+              display: block;
+              position: absolute;
+              left: 0;
+              bottom: 0;
+              content: '';
+              color: #000;
+              height: .2rem;
+              width: 100%;
+              background: #000;
+              transform-origin: right center;
+              transform: scale(0, 1);
+              transition: transform .3s ease;
+            }
+          }
+
+          &:hover {
+            > a {
+              &::before {
+                transform-origin: left center;
+                transform: scale(1, 1);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .header-31 {
+    .wishlist-link {
+      margin-left: 3.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .header-31 {
+    .header-center {
+      display: flex;
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .header-31 {
+    .wishlist-link {
+      display: none !important;
+    }
+
+    .cart-dropdown {
+      padding: 0;
+    }
+  }
+}

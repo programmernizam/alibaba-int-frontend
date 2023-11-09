@@ -1,0 +1,1882 @@
+/* generated with mixins */
+.alert-primary {
+  background-color: #c96;
+}
+
+.banner-badge {
+  .banner-link {
+    &:hover {
+      .banner-link-text {
+        background-color: #c96;
+      }
+    }
+
+    &:focus {
+      .banner-link-text {
+        background-color: #c96;
+      }
+    }
+  }
+}
+
+.header-3 {
+  .header-search-extended {
+    .btn {
+      background-color: transparent;
+      color: #333;
+
+      &:hover {
+        color: #c96;
+      }
+
+      &:focus {
+        color: #c96;
+      }
+    }
+  }
+}
+
+.header-4 {
+  .header-search-extended {
+    .btn {
+      background-color: transparent;
+      color: #333;
+
+      &:hover {
+        color: #c96;
+      }
+
+      &:focus {
+        color: #c96;
+      }
+    }
+  }
+}
+
+.btn-video {
+  color: #c96;
+
+  &:hover {
+    background-color: #000;
+  }
+
+  &:focus {
+    background-color: #000;
+  }
+}
+
+.breadcrumb-item {
+  a {
+    &:hover {
+      color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+    }
+  }
+}
+
+.btn-link {
+  color: #c96;
+
+  &:hover {
+    color: #c96;
+    border-color: #c96;
+  }
+
+  &:focus {
+    color: #c96;
+    border-color: #c96;
+  }
+
+  .btn-link-dark {
+    &:hover {
+      color: #c96;
+      border-color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+      border-color: #c96;
+    }
+  }
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #c96;
+  border-color: #c96;
+  box-shadow: none;
+
+  &:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+    box-shadow: none;
+  }
+
+  &:focus {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+    box-shadow: none;
+  }
+
+  &:not(:disabled) {
+    &:not(.disabled) {
+      &:active {
+        color: #fff;
+        background-color: #000;
+        border-color: #000;
+        box-shadow: none;
+      }
+    }
+
+    &:not(.disabled).active {
+      color: #fff;
+      background-color: #000;
+      border-color: #000;
+      box-shadow: none;
+    }
+  }
+
+  &:disabled {
+    color: #fff;
+    background-color: #c96;
+    border-color: #c96;
+  }
+}
+
+.btn-primary.focus {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+  box-shadow: none;
+}
+
+.show {
+  > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+    box-shadow: none;
+  }
+
+  > .btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: #c96;
+    border-color: #c96;
+    box-shadow: none;
+  }
+
+  > .btn-white.dropdown-toggle {
+    color: #fff;
+    background-color: #c96;
+    border-color: #c96;
+    box-shadow: none;
+  }
+
+  > .btn-white-2.dropdown-toggle {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+    box-shadow: none;
+  }
+
+  > .btn-primary-white.dropdown-toggle {
+    color: #c96;
+    background-color: #fff;
+    border-color: #fff;
+    box-shadow: none;
+  }
+
+  > .btn-white-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #c96;
+    border-color: #c96;
+    box-shadow: none;
+  }
+
+  > .btn-dark.dropdown-toggle {
+    color: #fff;
+    background-color: #c96;
+    border-color: #c96;
+    box-shadow: none;
+  }
+
+  > .btn-outline.dropdown-toggle {
+    color: #c96;
+    background-color: transparent;
+    border-color: #ebebeb;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  > .btn-outline-primary.dropdown-toggle {
+    color: #c96;
+    background-color: transparent;
+    border-color: #ebebeb;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  }
+
+  > .btn-outline-primary-2.dropdown-toggle {
+    color: #fff;
+    background-color: #c96;
+    border-color: #c96;
+    box-shadow: none;
+  }
+
+  > .btn-outline-light.dropdown-toggle {
+    color: #c96;
+    background-color: transparent;
+    border-color: #fff;
+    box-shadow: none;
+  }
+
+  > .btn-outline-dark.dropdown-toggle {
+    color: #c96;
+    background-color: transparent;
+    border-color: #ebebeb;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  }
+
+  > .btn-outline-dark-2.dropdown-toggle {
+    color: #c96;
+    background-color: #fafafa;
+    border-color: #ebebeb;
+    box-shadow: none;
+  }
+
+  > .btn-outline-dark-3.dropdown-toggle {
+    color: #c96;
+    background-color: transparent;
+    border-color: #c96;
+    box-shadow: none;
+  }
+
+  > .btn-outline-darker.dropdown-toggle {
+    color: #fff;
+    background-color: #c96;
+    border-color: #c96;
+    box-shadow: none;
+  }
+
+  > .btn-outline-gray.dropdown-toggle {
+    color: #fff;
+    background-color: #c96;
+    border-color: #c96;
+    box-shadow: none;
+  }
+
+  > .btn-outline-lightgray.dropdown-toggle {
+    color: #c96;
+    background-color: #f5f6f9;
+    border-color: #ebebeb;
+    box-shadow: none;
+  }
+
+  > .btn-outline-white.dropdown-toggle {
+    color: #fff;
+    background-color: #c96;
+    border-color: #c96;
+    box-shadow: none;
+  }
+
+  > .btn-outline-white-2.dropdown-toggle {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+    box-shadow: none;
+  }
+
+  > .btn-outline-white-4.dropdown-toggle {
+    color: #c96;
+    background-color: #fff;
+    border-color: #fff;
+    box-shadow: none;
+  }
+
+  > .bg-image {
+    .btn-outline-primary.dropdown-toggle {
+      background-color: #c96;
+      border-color: #c96;
+    }
+
+    .btn-outline-dark.dropdown-toggle {
+      color: #c96;
+    }
+  }
+}
+
+.btn-primary.disabled {
+  color: #fff;
+  background-color: #c96;
+  border-color: #c96;
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+  box-shadow: none;
+
+  &:hover {
+    color: #fff;
+    background-color: #c96;
+    border-color: #c96;
+    box-shadow: none;
+  }
+
+  &:focus {
+    color: #fff;
+    background-color: #c96;
+    border-color: #c96;
+    box-shadow: none;
+  }
+
+  &:not(:disabled) {
+    &:not(.disabled) {
+      &:active {
+        color: #fff;
+        background-color: #c96;
+        border-color: #c96;
+        box-shadow: none;
+      }
+    }
+
+    &:not(.disabled).active {
+      color: #fff;
+      background-color: #c96;
+      border-color: #c96;
+      box-shadow: none;
+    }
+  }
+
+  &:disabled {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+  }
+}
+
+.btn-secondary.focus {
+  color: #fff;
+  background-color: #c96;
+  border-color: #c96;
+  box-shadow: none;
+}
+
+.btn-secondary.disabled {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+}
+
+.btn-white {
+  color: #333333;
+  background-color: #fff;
+  border-color: #fff;
+  box-shadow: none;
+
+  &:hover {
+    color: #fff;
+    background-color: #c96;
+    border-color: #c96;
+    box-shadow: none;
+  }
+
+  &:focus {
+    color: #fff;
+    background-color: #c96;
+    border-color: #c96;
+    box-shadow: none;
+  }
+
+  &:not(:disabled) {
+    &:not(.disabled) {
+      &:active {
+        color: #fff;
+        background-color: #c96;
+        border-color: #c96;
+        box-shadow: none;
+      }
+    }
+
+    &:not(.disabled).active {
+      color: #fff;
+      background-color: #c96;
+      border-color: #c96;
+      box-shadow: none;
+    }
+  }
+
+  &:disabled {
+    color: #333333;
+    background-color: #fff;
+    border-color: #fff;
+  }
+}
+
+.btn-white.focus {
+  color: #fff;
+  background-color: #c96;
+  border-color: #c96;
+  box-shadow: none;
+}
+
+.btn-white.disabled {
+  color: #333333;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.btn-white-2 {
+  color: #333333;
+  background-color: #fff;
+  border-color: #fff;
+  box-shadow: none;
+
+  &:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+    box-shadow: none;
+  }
+
+  &:focus {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+    box-shadow: none;
+  }
+
+  &:not(:disabled) {
+    &:not(.disabled) {
+      &:active {
+        color: #fff;
+        background-color: #000;
+        border-color: #000;
+        box-shadow: none;
+      }
+    }
+
+    &:not(.disabled).active {
+      color: #fff;
+      background-color: #000;
+      border-color: #000;
+      box-shadow: none;
+    }
+  }
+
+  &:disabled {
+    color: #333333;
+    background-color: #fff;
+    border-color: #fff;
+  }
+}
+
+.btn-white-2.focus {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+  box-shadow: none;
+}
+
+.btn-white-2.disabled {
+  color: #333333;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.btn-primary-white {
+  color: #fff;
+  background-color: #c96;
+  border-color: #c96;
+  box-shadow: none;
+
+  &:hover {
+    color: #c96;
+    background-color: #fff;
+    border-color: #fff;
+    box-shadow: none;
+  }
+
+  &:focus {
+    color: #c96;
+    background-color: #fff;
+    border-color: #fff;
+    box-shadow: none;
+  }
+
+  &:not(:disabled) {
+    &:not(.disabled) {
+      &:active {
+        color: #c96;
+        background-color: #fff;
+        border-color: #fff;
+        box-shadow: none;
+      }
+    }
+
+    &:not(.disabled).active {
+      color: #c96;
+      background-color: #fff;
+      border-color: #fff;
+      box-shadow: none;
+    }
+  }
+
+  &:disabled {
+    color: #fff;
+    background-color: #c96;
+    border-color: #c96;
+  }
+}
+
+.btn-primary-white.focus {
+  color: #c96;
+  background-color: #fff;
+  border-color: #fff;
+  box-shadow: none;
+}
+
+.btn-primary-white.disabled {
+  color: #fff;
+  background-color: #c96;
+  border-color: #c96;
+}
+
+.btn-white-primary {
+  color: #c96;
+  background-color: #fff;
+  border-color: #fff;
+  box-shadow: none;
+
+  &:hover {
+    color: #fff;
+    background-color: #c96;
+    border-color: #c96;
+    box-shadow: none;
+  }
+
+  &:focus {
+    color: #fff;
+    background-color: #c96;
+    border-color: #c96;
+    box-shadow: none;
+  }
+
+  &:not(:disabled) {
+    &:not(.disabled) {
+      &:active {
+        color: #fff;
+        background-color: #c96;
+        border-color: #c96;
+        box-shadow: none;
+      }
+    }
+
+    &:not(.disabled).active {
+      color: #fff;
+      background-color: #c96;
+      border-color: #c96;
+      box-shadow: none;
+    }
+  }
+
+  &:disabled {
+    color: #c96;
+    background-color: #fff;
+    border-color: #fff;
+  }
+}
+
+.btn-white-primary.focus {
+  color: #fff;
+  background-color: #c96;
+  border-color: #c96;
+  box-shadow: none;
+}
+
+.btn-white-primary.disabled {
+  color: #c96;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.btn-dark {
+  color: #fff;
+  background-color: #333;
+  border-color: #333;
+  box-shadow: none;
+
+  &:hover {
+    color: #fff;
+    background-color: #c96;
+    border-color: #c96;
+    box-shadow: none;
+  }
+
+  &:focus {
+    color: #fff;
+    background-color: #c96;
+    border-color: #c96;
+    box-shadow: none;
+  }
+
+  &:not(:disabled) {
+    &:not(.disabled) {
+      &:active {
+        color: #fff;
+        background-color: #c96;
+        border-color: #c96;
+        box-shadow: none;
+      }
+    }
+
+    &:not(.disabled).active {
+      color: #fff;
+      background-color: #c96;
+      border-color: #c96;
+      box-shadow: none;
+    }
+  }
+
+  &:disabled {
+    color: #fff;
+    background-color: #333;
+    border-color: #333;
+  }
+}
+
+.btn-dark.focus {
+  color: #fff;
+  background-color: #c96;
+  border-color: #c96;
+  box-shadow: none;
+}
+
+.btn-dark.disabled {
+  color: #fff;
+  background-color: #333;
+  border-color: #333;
+}
+
+.btn-outline {
+  color: #c96;
+  background-color: transparent;
+  background-image: none;
+  border-color: #ebebeb;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+
+  &:hover {
+    color: #c96;
+    background-color: transparent;
+    border-color: #ebebeb;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  &:focus {
+    color: #c96;
+    background-color: transparent;
+    border-color: #ebebeb;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  &:not(:disabled) {
+    &:not(.disabled) {
+      &:active {
+        color: #c96;
+        background-color: transparent;
+        border-color: #ebebeb;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+      }
+    }
+
+    &:not(.disabled).active {
+      color: #c96;
+      background-color: transparent;
+      border-color: #ebebeb;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    }
+  }
+
+  &:disabled {
+    color: #c96;
+    background-color: transparent;
+  }
+}
+
+.btn-outline.focus {
+  color: #c96;
+  background-color: transparent;
+  border-color: #ebebeb;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.btn-outline.disabled {
+  color: #c96;
+  background-color: transparent;
+}
+
+.btn-outline-primary {
+  color: #c96;
+  background-color: transparent;
+  background-image: none;
+  border-color: #c96;
+  box-shadow: none;
+
+  &:hover {
+    color: #c96;
+    background-color: transparent;
+    border-color: #ebebeb;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  }
+
+  &:focus {
+    color: #c96;
+    background-color: transparent;
+    border-color: #ebebeb;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  }
+
+  &:not(:disabled) {
+    &:not(.disabled) {
+      &:active {
+        color: #c96;
+        background-color: transparent;
+        border-color: #ebebeb;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+      }
+    }
+
+    &:not(.disabled).active {
+      color: #c96;
+      background-color: transparent;
+      border-color: #ebebeb;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+    }
+  }
+
+  &:disabled {
+    color: #c96;
+    background-color: transparent;
+  }
+}
+
+.btn-outline-primary.focus {
+  color: #c96;
+  background-color: transparent;
+  border-color: #ebebeb;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+.btn-outline-primary.disabled {
+  color: #c96;
+  background-color: transparent;
+}
+
+.btn-outline-primary-2 {
+  color: #c96;
+  background-color: transparent;
+  background-image: none;
+  border-color: #c96;
+  box-shadow: none;
+
+  &:hover {
+    color: #fff;
+    background-color: #c96;
+    border-color: #c96;
+    box-shadow: none;
+  }
+
+  &:focus {
+    color: #fff;
+    background-color: #c96;
+    border-color: #c96;
+    box-shadow: none;
+  }
+
+  &:not(:disabled) {
+    &:not(.disabled) {
+      &:active {
+        color: #fff;
+        background-color: #c96;
+        border-color: #c96;
+        box-shadow: none;
+      }
+    }
+
+    &:not(.disabled).active {
+      color: #fff;
+      background-color: #c96;
+      border-color: #c96;
+      box-shadow: none;
+    }
+  }
+
+  &:disabled {
+    color: #c96;
+    background-color: transparent;
+  }
+}
+
+.btn-outline-primary-2.focus {
+  color: #fff;
+  background-color: #c96;
+  border-color: #c96;
+  box-shadow: none;
+}
+
+.btn-outline-primary-2.disabled {
+  color: #c96;
+  background-color: transparent;
+}
+
+.btn-outline-light {
+  color: #fff;
+  background-color: transparent;
+  background-image: none;
+  border-color: #fff;
+  box-shadow: none;
+
+  &:hover {
+    color: #c96;
+    background-color: transparent;
+    border-color: #fff;
+    box-shadow: none;
+  }
+
+  &:focus {
+    color: #c96;
+    background-color: transparent;
+    border-color: #fff;
+    box-shadow: none;
+  }
+
+  &:not(:disabled) {
+    &:not(.disabled) {
+      &:active {
+        color: #c96;
+        background-color: transparent;
+        border-color: #fff;
+        box-shadow: none;
+      }
+    }
+
+    &:not(.disabled).active {
+      color: #c96;
+      background-color: transparent;
+      border-color: #fff;
+      box-shadow: none;
+    }
+  }
+
+  &:disabled {
+    color: #fff;
+    background-color: transparent;
+  }
+}
+
+.btn-outline-light.focus {
+  color: #c96;
+  background-color: transparent;
+  border-color: #fff;
+  box-shadow: none;
+}
+
+.btn-outline-light.disabled {
+  color: #fff;
+  background-color: transparent;
+}
+
+.btn-outline-dark {
+  color: #333333;
+  background-color: transparent;
+  background-image: none;
+  border-color: #d7d7d7;
+  box-shadow: none;
+
+  &:hover {
+    color: #c96;
+    background-color: transparent;
+    border-color: #ebebeb;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  }
+
+  &:focus {
+    color: #c96;
+    background-color: transparent;
+    border-color: #ebebeb;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  }
+
+  &:not(:disabled) {
+    &:not(.disabled) {
+      &:active {
+        color: #c96;
+        background-color: transparent;
+        border-color: #ebebeb;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+      }
+    }
+
+    &:not(.disabled).active {
+      color: #c96;
+      background-color: transparent;
+      border-color: #ebebeb;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+    }
+  }
+
+  &:disabled {
+    color: #333333;
+    background-color: transparent;
+  }
+}
+
+.btn-outline-dark.focus {
+  color: #c96;
+  background-color: transparent;
+  border-color: #ebebeb;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+.btn-outline-dark.disabled {
+  color: #333333;
+  background-color: transparent;
+}
+
+.btn-outline-dark-2 {
+  color: #333333;
+  background-color: transparent;
+  background-image: none;
+  border-color: #ebebeb;
+  box-shadow: none;
+
+  &:hover {
+    color: #c96;
+    background-color: #fafafa;
+    border-color: #ebebeb;
+    box-shadow: none;
+  }
+
+  &:focus {
+    color: #c96;
+    background-color: #fafafa;
+    border-color: #ebebeb;
+    box-shadow: none;
+  }
+
+  &:not(:disabled) {
+    &:not(.disabled) {
+      &:active {
+        color: #c96;
+        background-color: #fafafa;
+        border-color: #ebebeb;
+        box-shadow: none;
+      }
+    }
+
+    &:not(.disabled).active {
+      color: #c96;
+      background-color: #fafafa;
+      border-color: #ebebeb;
+      box-shadow: none;
+    }
+  }
+
+  &:disabled {
+    color: #333333;
+    background-color: transparent;
+  }
+}
+
+.btn-outline-dark-2.focus {
+  color: #c96;
+  background-color: #fafafa;
+  border-color: #ebebeb;
+  box-shadow: none;
+}
+
+.btn-outline-dark-2.disabled {
+  color: #333333;
+  background-color: transparent;
+}
+
+.btn-outline-dark-3 {
+  color: #333333;
+  background-color: transparent;
+  background-image: none;
+  border-color: #d7d7d7;
+  box-shadow: none;
+
+  &:hover {
+    color: #c96;
+    background-color: transparent;
+    border-color: #c96;
+    box-shadow: none;
+  }
+
+  &:focus {
+    color: #c96;
+    background-color: transparent;
+    border-color: #c96;
+    box-shadow: none;
+  }
+
+  &:not(:disabled) {
+    &:not(.disabled) {
+      &:active {
+        color: #c96;
+        background-color: transparent;
+        border-color: #c96;
+        box-shadow: none;
+      }
+    }
+
+    &:not(.disabled).active {
+      color: #c96;
+      background-color: transparent;
+      border-color: #c96;
+      box-shadow: none;
+    }
+  }
+
+  &:disabled {
+    color: #333333;
+    background-color: transparent;
+  }
+}
+
+.btn-outline-dark-3.focus {
+  color: #c96;
+  background-color: transparent;
+  border-color: #c96;
+  box-shadow: none;
+}
+
+.btn-outline-dark-3.disabled {
+  color: #333333;
+  background-color: transparent;
+}
+
+.btn-outline-darker {
+  color: #333333;
+  background-color: transparent;
+  background-image: none;
+  border-color: #d7d7d7;
+  box-shadow: none;
+
+  &:hover {
+    color: #fff;
+    background-color: #c96;
+    border-color: #c96;
+    box-shadow: none;
+  }
+
+  &:focus {
+    color: #fff;
+    background-color: #c96;
+    border-color: #c96;
+    box-shadow: none;
+  }
+
+  &:not(:disabled) {
+    &:not(.disabled) {
+      &:active {
+        color: #fff;
+        background-color: #c96;
+        border-color: #c96;
+        box-shadow: none;
+      }
+    }
+
+    &:not(.disabled).active {
+      color: #fff;
+      background-color: #c96;
+      border-color: #c96;
+      box-shadow: none;
+    }
+  }
+
+  &:disabled {
+    color: #333333;
+    background-color: transparent;
+  }
+}
+
+.btn-outline-darker.focus {
+  color: #fff;
+  background-color: #c96;
+  border-color: #c96;
+  box-shadow: none;
+}
+
+.btn-outline-darker.disabled {
+  color: #333333;
+  background-color: transparent;
+}
+
+.btn-outline-gray {
+  color: #333333;
+  background-color: transparent;
+  background-image: none;
+  border-color: #959595;
+  box-shadow: none;
+
+  &:hover {
+    color: #fff;
+    background-color: #c96;
+    border-color: #c96;
+    box-shadow: none;
+  }
+
+  &:focus {
+    color: #fff;
+    background-color: #c96;
+    border-color: #c96;
+    box-shadow: none;
+  }
+
+  &:not(:disabled) {
+    &:not(.disabled) {
+      &:active {
+        color: #fff;
+        background-color: #c96;
+        border-color: #c96;
+        box-shadow: none;
+      }
+    }
+
+    &:not(.disabled).active {
+      color: #fff;
+      background-color: #c96;
+      border-color: #c96;
+      box-shadow: none;
+    }
+  }
+
+  &:disabled {
+    color: #333333;
+    background-color: transparent;
+  }
+}
+
+.btn-outline-gray.focus {
+  color: #fff;
+  background-color: #c96;
+  border-color: #c96;
+  box-shadow: none;
+}
+
+.btn-outline-gray.disabled {
+  color: #333333;
+  background-color: transparent;
+}
+
+.btn-outline-lightgray {
+  color: #333333;
+  background-color: transparent;
+  background-image: none;
+  border-color: #ebebeb;
+  box-shadow: none;
+
+  &:hover {
+    color: #c96;
+    background-color: #f5f6f9;
+    border-color: #ebebeb;
+    box-shadow: none;
+  }
+
+  &:focus {
+    color: #c96;
+    background-color: #f5f6f9;
+    border-color: #ebebeb;
+    box-shadow: none;
+  }
+
+  &:not(:disabled) {
+    &:not(.disabled) {
+      &:active {
+        color: #c96;
+        background-color: #f5f6f9;
+        border-color: #ebebeb;
+        box-shadow: none;
+      }
+    }
+
+    &:not(.disabled).active {
+      color: #c96;
+      background-color: #f5f6f9;
+      border-color: #ebebeb;
+      box-shadow: none;
+    }
+  }
+
+  &:disabled {
+    color: #333333;
+    background-color: transparent;
+  }
+}
+
+.btn-outline-lightgray.focus {
+  color: #c96;
+  background-color: #f5f6f9;
+  border-color: #ebebeb;
+  box-shadow: none;
+}
+
+.btn-outline-lightgray.disabled {
+  color: #333333;
+  background-color: transparent;
+}
+
+.btn-outline-white {
+  color: #fff;
+  background-color: transparent;
+  background-image: none;
+  border-color: #fff;
+  box-shadow: none;
+
+  &:hover {
+    color: #fff;
+    background-color: #c96;
+    border-color: #c96;
+    box-shadow: none;
+  }
+
+  &:focus {
+    color: #fff;
+    background-color: #c96;
+    border-color: #c96;
+    box-shadow: none;
+  }
+
+  &:not(:disabled) {
+    &:not(.disabled) {
+      &:active {
+        color: #fff;
+        background-color: #c96;
+        border-color: #c96;
+        box-shadow: none;
+      }
+    }
+
+    &:not(.disabled).active {
+      color: #fff;
+      background-color: #c96;
+      border-color: #c96;
+      box-shadow: none;
+    }
+  }
+
+  &:disabled {
+    color: #fff;
+    background-color: transparent;
+  }
+}
+
+.btn-outline-white.focus {
+  color: #fff;
+  background-color: #c96;
+  border-color: #c96;
+  box-shadow: none;
+}
+
+.btn-outline-white.disabled {
+  color: #fff;
+  background-color: transparent;
+}
+
+.btn-outline-white-2 {
+  color: #fff;
+  background-color: transparent;
+  background-image: none;
+  border-color: #fff;
+  box-shadow: none;
+
+  &:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+    box-shadow: none;
+  }
+
+  &:focus {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+    box-shadow: none;
+  }
+
+  &:not(:disabled) {
+    &:not(.disabled) {
+      &:active {
+        color: #fff;
+        background-color: #000;
+        border-color: #000;
+        box-shadow: none;
+      }
+    }
+
+    &:not(.disabled).active {
+      color: #fff;
+      background-color: #000;
+      border-color: #000;
+      box-shadow: none;
+    }
+  }
+
+  &:disabled {
+    color: #fff;
+    background-color: transparent;
+  }
+}
+
+.btn-outline-white-2.focus {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+  box-shadow: none;
+}
+
+.btn-outline-white-2.disabled {
+  color: #fff;
+  background-color: transparent;
+}
+
+.btn-outline-white-4 {
+  color: #fff;
+  background-color: transparent;
+  background-image: none;
+  border-color: #fff;
+  box-shadow: none;
+
+  &:hover {
+    color: #c96;
+    background-color: #fff;
+    border-color: #fff;
+    box-shadow: none;
+  }
+
+  &:focus {
+    color: #c96;
+    background-color: #fff;
+    border-color: #fff;
+    box-shadow: none;
+  }
+
+  &:not(:disabled) {
+    &:not(.disabled) {
+      &:active {
+        color: #c96;
+        background-color: #fff;
+        border-color: #fff;
+        box-shadow: none;
+      }
+    }
+
+    &:not(.disabled).active {
+      color: #c96;
+      background-color: #fff;
+      border-color: #fff;
+      box-shadow: none;
+    }
+  }
+
+  &:disabled {
+    color: #fff;
+    background-color: transparent;
+  }
+}
+
+.btn-outline-white-4.focus {
+  color: #c96;
+  background-color: #fff;
+  border-color: #fff;
+  box-shadow: none;
+}
+
+.btn-outline-white-4.disabled {
+  color: #fff;
+  background-color: transparent;
+}
+
+.newsletter-popup-container {
+  .input-group {
+    .btn {
+      &:hover {
+        background-color: #c96;
+      }
+
+      &:focus {
+        background-color: #c96;
+      }
+    }
+  }
+}
+
+.bg-image {
+  .btn-link-dark {
+    &:hover {
+      color: #c96;
+      border-color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+      border-color: #c96;
+    }
+  }
+
+  .btn-outline-primary {
+    &:hover {
+      background-color: #c96;
+      border-color: #c96;
+    }
+
+    &:focus {
+      background-color: #c96;
+      border-color: #c96;
+    }
+
+    &:not(:disabled) {
+      &:not(.disabled) {
+        &:active {
+          background-color: #c96;
+          border-color: #c96;
+        }
+      }
+
+      &:not(.disabled).active {
+        background-color: #c96;
+        border-color: #c96;
+      }
+    }
+  }
+
+  .btn-outline-primary.focus {
+    background-color: #c96;
+    border-color: #c96;
+  }
+
+  .btn-outline-dark {
+    &:hover {
+      color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+    }
+
+    &:not(:disabled) {
+      &:not(.disabled) {
+        &:active {
+          color: #c96;
+        }
+      }
+
+      &:not(.disabled).active {
+        color: #c96;
+      }
+    }
+  }
+
+  .btn-outline-dark.focus {
+    color: #c96;
+  }
+}
+
+.card-title {
+  a {
+    color: #c96;
+
+    &:before {
+      color: #c96;
+    }
+  }
+
+  a.collapsed {
+    &:hover {
+      color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+    }
+  }
+}
+
+.count-wrapper {
+  color: #c96;
+}
+
+.feature-box {
+  i {
+    color: #c96;
+  }
+}
+
+.feature-box-simple {
+  i {
+    color: #c96;
+  }
+}
+
+.form-control {
+  &:focus {
+    border-color: #c96;
+  }
+}
+
+.custom-control.custom-radio {
+  .custom-control-input {
+    &:checked {
+      ~ {
+        .custom-control-label {
+          &::before {
+            border-color: #c96;
+          }
+
+          &::after {
+            background-color: #c96;
+          }
+        }
+      }
+    }
+  }
+}
+
+.icon-box-icon {
+  color: #c96;
+}
+
+.icon-box-circle {
+  .icon-box-icon {
+    background-color: #c96;
+  }
+}
+
+.instagram-feed-content {
+  a {
+    &:hover {
+      color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+    }
+  }
+}
+
+.close {
+  &:hover {
+    color: #c96;
+  }
+
+  &:focus {
+    color: #c96;
+  }
+}
+
+.page-header {
+  h1 {
+    span {
+      color: #c96;
+    }
+  }
+}
+
+.page-link {
+  &:hover {
+    color: #c96;
+  }
+
+  &:focus {
+    color: #c96;
+  }
+}
+
+.page-item.active {
+  .page-link {
+    color: #c96;
+  }
+}
+
+.social-icon {
+  &:hover {
+    color: #c96;
+    border-color: #c96;
+  }
+
+  &:focus {
+    color: #c96;
+    border-color: #c96;
+  }
+}
+
+.testimonial-icon {
+  &:before {
+    color: #c96;
+  }
+}
+
+.nav.nav-tabs {
+  .nav-link {
+    &:hover {
+      color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+    }
+  }
+
+  .nav-item.show {
+    .nav-link {
+      color: #c96;
+    }
+  }
+
+  .nav-item {
+    .nav-link.active {
+      color: #c96;
+    }
+  }
+}
+
+.nav.nav-pills {
+  .nav-link {
+    &:hover {
+      color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+    }
+  }
+
+  .nav-item.show {
+    .nav-link {
+      color: #c96;
+      border-bottom-color: #c96;
+    }
+  }
+
+  .nav-item {
+    .nav-link.active {
+      color: #c96;
+      border-bottom-color: #c96;
+    }
+  }
+}
+
+.nav.nav-border-anim {
+  .nav-link {
+    &:before {
+      background-color: #c96;
+    }
+  }
+}
+
+.title-link {
+  &:hover {
+    box-shadow: 0 1px 0 0 #c96;
+  }
+
+  &:focus {
+    box-shadow: 0 1px 0 0 #c96;
+  }
+}
+
+.product-countdown.countdown-primary {
+  .countdown-amount {
+    color: #c96;
+  }
+}
+
+.product-title {
+  a {
+    &:hover {
+      color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+    }
+  }
+}
+
+.product-price {
+  color: #c96;
+}
+
+.product-label.label-primary {
+  background-color: #c96;
+}
+
+.product-label.label-secondary {
+  background-color: #000;
+}
+
+.product-label-text {
+  color: #c96;
+}
+
+.ratings-primary {
+  .ratings-val {
+    color: #c96;
+  }
+}
+
+.ratings-text {
+  a {
+    &:hover {
+      color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+    }
+  }
+}
+
+.btn-product {
+  color: #c96;
+
+  &:hover {
+    span {
+      color: #c96;
+      box-shadow: 0 1px 0 0 #c96;
+    }
+  }
+
+  &:focus {
+    span {
+      color: #c96;
+      box-shadow: 0 1px 0 0 #c96;
+    }
+  }
+}
+
+.btn-product-icon {
+  color: #c96;
+
+  &:hover {
+    background-color: #c96;
+  }
+
+  &:focus {
+    background-color: #c96;
+  }
+}
+
+.product-body {
+  .btn-wishlist {
+    &:hover {
+      color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+    }
+  }
+}
+
+.btn-expandable {
+  span {
+    background-color: #c96;
+  }
+}
+
+.product.product-4 {
+  .btn-product {
+    &:hover {
+      background-color: #000;
+    }
+
+    &:focus {
+      background-color: #000;
+    }
+  }
+}
+
+.product.product-5 {
+  .btn-product {
+    color: #c96;
+
+    &:hover {
+      background-color: #c96;
+    }
+
+    &:focus {
+      background-color: #c96;
+    }
+  }
+}
+
+.product.product-7 {
+  .btn-product {
+    color: #c96;
+
+    span {
+      color: #c96;
+    }
+
+    &:hover {
+      background-color: #c96;
+      border-bottom-color: #c96;
+    }
+
+    &:focus {
+      background-color: #c96;
+      border-bottom-color: #c96;
+    }
+  }
+}
+
+.product.product-8 {
+  .new-price {
+    color: #c96;
+  }
+
+  .btn-product {
+    &:before {
+      color: #c96;
+    }
+
+    &:hover {
+      background-color: #c96;
+    }
+
+    &:focus {
+      background-color: #c96;
+    }
+  }
+}
+
+.product.product-list {
+  .btn-product {
+    &:hover {
+      color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+    }
+  }
+
+  .btn-product.btn-cart {
+    color: #c96;
+    border-bolor: #c96;
+
+    &:hover {
+      background-color: #c96;
+    }
+
+    &:focus {
+      background-color: #c96;
+    }
+  }
+}

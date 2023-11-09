@@ -1,0 +1,1237 @@
+/* Pages */
+.entry-video {
+  a {
+    &:hover {
+      &:after {
+        color: #c96;
+      }
+    }
+
+    &:focus {
+      &:after {
+        color: #c96;
+      }
+    }
+  }
+}
+
+.entry-meta {
+  a {
+    &:hover {
+      color: #c96;
+      box-shadow: 0 1px 0 #c96;
+    }
+
+    &:focus {
+      color: #c96;
+      box-shadow: 0 1px 0 #c96;
+    }
+  }
+}
+
+.entry-title {
+  a {
+    &:hover {
+      color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+    }
+  }
+}
+
+.entry-cats {
+  a {
+    &:hover {
+      color: #c96;
+      box-shadow: 0 1px 0 #c96;
+    }
+
+    &:focus {
+      color: #c96;
+      box-shadow: 0 1px 0 #c96;
+    }
+  }
+}
+
+.read-more {
+  &:hover {
+    box-shadow: 0 1px 0 0 #c96;
+  }
+
+  &:focus {
+    box-shadow: 0 1px 0 0 #c96;
+  }
+}
+
+.menu-cat {
+  a {
+    &:hover {
+      color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+    }
+  }
+
+  li.active {
+    a {
+      color: #c96;
+      box-shadow: 0 1px 0 #c96;
+    }
+  }
+}
+
+.widget-search {
+  .btn {
+    &:hover {
+      color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+    }
+  }
+}
+
+.widget-cats {
+  a {
+    &:hover {
+      color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+    }
+  }
+}
+
+.posts-list {
+  a {
+    &:hover {
+      color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+    }
+  }
+}
+
+.tagcloud {
+  a {
+    &:hover {
+      color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+    }
+  }
+}
+
+.table {
+  .total-col {
+    color: #c96;
+  }
+}
+
+.btn.btn-spinner {
+  &:hover {
+    color: #c96;
+  }
+
+  &:focus {
+    color: #c96;
+  }
+}
+
+.sidebar-toggler {
+  &:hover {
+    color: #c96;
+  }
+
+  &:focus {
+    color: #c96;
+  }
+}
+
+#filter-price-range {
+  color: #c96;
+}
+
+.checkout-discount {
+  label {
+    span {
+      color: #c96;
+    }
+  }
+
+  .form-control {
+    &:focus {
+      border-color: #c96;
+    }
+  }
+}
+
+.accordion-summary {
+  .card-title {
+    a {
+      &:before {
+        border-color: #c96;
+      }
+
+      &:after {
+        background-color: #c96;
+      }
+    }
+  }
+}
+
+.paypal-link {
+  &:hover {
+    color: #c96 !important;
+  }
+
+  &:focus {
+    color: #c96 !important;
+  }
+}
+
+.coming-countdown {
+  .countdown-amount {
+    color: #c96;
+  }
+}
+
+.coming-countdown.countdown-separator {
+  .countdown-section {
+    &:not(:last-child) {
+      &:after {
+        color: #c96;
+      }
+    }
+  }
+}
+
+.contact-box {
+  a {
+    &:hover {
+      color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+    }
+  }
+}
+
+.contact-list {
+  a {
+    &:hover {
+      color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+    }
+  }
+
+  i {
+    color: #c96;
+  }
+}
+
+.store {
+  a {
+    &:not(.btn) {
+      &:hover {
+        color: #c96;
+      }
+
+      &:focus {
+        color: #c96;
+      }
+    }
+  }
+}
+
+.nav-dashboard {
+  .nav-link {
+    &:hover {
+      color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+    }
+  }
+
+  .nav-link.active {
+    color: #c96;
+  }
+}
+
+.form-tab {
+  .form-footer {
+    a {
+      &:hover {
+        color: #c96;
+      }
+
+      &:focus {
+        color: #c96;
+      }
+    }
+  }
+}
+
+.nav-filter {
+  a {
+    &:hover {
+      color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+    }
+  }
+
+  .active {
+    a {
+      color: #c96;
+      border-bottom-color: #c96;
+    }
+  }
+}
+
+.portfolio-title {
+  a {
+    &:hover {
+      color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+    }
+  }
+}
+
+.portfolio-tags {
+  a {
+    color: #c96;
+
+    &:hover {
+      color: #c96;
+      box-shadow: 0 1px 0 #c96;
+    }
+
+    &:focus {
+      color: #c96;
+      box-shadow: 0 1px 0 #c96;
+    }
+  }
+}
+
+.btn-product-gallery {
+  &:hover {
+    background-color: #c96;
+  }
+
+  &:focus {
+    background-color: #c96;
+  }
+}
+
+.product-gallery-item {
+  &:before {
+    border-color: #c96;
+  }
+}
+
+.product-pager-link {
+  &:hover {
+    color: #c96;
+
+    span {
+      box-shadow: 0 1px 0 #c96;
+    }
+  }
+
+  &:focus {
+    color: #c96;
+
+    span {
+      box-shadow: 0 1px 0 #c96;
+    }
+  }
+}
+
+.product-details {
+  .product-cat {
+    a {
+      &:hover {
+        color: #c96;
+        box-shadow: 0 1px 0 #c96;
+      }
+
+      &:focus {
+        color: #c96;
+        box-shadow: 0 1px 0 #c96;
+      }
+    }
+  }
+
+  .product-size {
+    a.active {
+      color: #c96;
+      border-color: #c96;
+    }
+
+    a {
+      &:hover {
+        color: #c96;
+        border-color: #c96;
+      }
+
+      &:focus {
+        color: #c96;
+        border-color: #c96;
+      }
+    }
+  }
+}
+
+.size-guide {
+  &:hover {
+    color: #c96;
+  }
+
+  &:focus {
+    color: #c96;
+  }
+}
+
+.product-details-action {
+  .btn-cart {
+    color: #c96;
+    border-color: #c96;
+
+    &:hover {
+      border-color: #c96;
+      background-color: #c96;
+    }
+
+    &:focus {
+      border-color: #c96;
+      background-color: #c96;
+    }
+  }
+}
+
+.product-details-tab {
+  .nav.nav-pills {
+    .nav-link {
+      &:hover {
+        color: #c96;
+        border-bottom-color: #c96;
+      }
+
+      &:focus {
+        color: #c96;
+        border-bottom-color: #c96;
+      }
+    }
+  }
+}
+
+.product-desc-content {
+  a {
+    &:hover {
+      color: #c96;
+      border-bottom-color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+      border-bottom-color: #c96;
+    }
+  }
+}
+
+.review {
+  h4 {
+    a {
+      &:hover {
+        color: #c96;
+      }
+
+      &:focus {
+        color: #c96;
+      }
+    }
+  }
+}
+
+.review-action {
+  a {
+    &:hover {
+      color: #c96;
+      box-shadow: 0 1px 0 #c96;
+    }
+
+    &:focus {
+      color: #c96;
+      box-shadow: 0 1px 0 #c96;
+    }
+  }
+}
+
+.product-details-extended {
+  .nav.nav-pills {
+    .nav-link.active {
+      border-color: #c96;
+    }
+
+    .nav-link {
+      &:hover {
+        border-color: #c96;
+      }
+
+      &:focus {
+        border-color: #c96;
+      }
+    }
+  }
+}
+
+.editor-content {
+  a {
+    &:hover {
+      color: #c96;
+      box-shadow: 0 1px 0 #c96;
+    }
+
+    &:focus {
+      color: #c96;
+      box-shadow: 0 1px 0 #c96;
+    }
+  }
+
+  blockquote {
+    border-left-color: #c96;
+  }
+}
+
+.entry-tags {
+  a {
+    &:hover {
+      color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+    }
+  }
+}
+
+.entry-author-details {
+  h4 {
+    a {
+      &:hover {
+        color: #c96;
+      }
+
+      &:focus {
+        color: #c96;
+      }
+    }
+  }
+}
+
+.author-link {
+  &:hover {
+    color: #c96;
+    box-shadow: 0 1px 0 #c96;
+  }
+
+  &:focus {
+    color: #c96;
+    box-shadow: 0 1px 0 #c96;
+  }
+}
+
+.pager-link {
+  color: #c96;
+
+  &:hover {
+    color: #c96;
+
+    &:after {
+      color: #c96;
+    }
+  }
+
+  &:focus {
+    color: #c96;
+
+    &:after {
+      color: #c96;
+    }
+  }
+}
+
+.comment-reply {
+  &:hover {
+    color: #c96;
+    box-shadow: 0 1px 0 #c96;
+  }
+
+  &:focus {
+    color: #c96;
+    box-shadow: 0 1px 0 #c96;
+  }
+}
+
+.comment-user {
+  h4 {
+    a {
+      &:hover {
+        color: #c96;
+      }
+
+      &:focus {
+        color: #c96;
+      }
+    }
+  }
+}
+
+.product-col {
+  .product-title {
+    a {
+      &:hover {
+        color: #c96;
+      }
+
+      &:focus {
+        color: #c96;
+      }
+    }
+  }
+}
+
+
+.entry-video {
+  a {
+    &:hover {
+      &:after {
+        color: #c96;
+      }
+    }
+
+    &:focus {
+      &:after {
+        color: #c96;
+      }
+    }
+  }
+}
+
+.entry-meta {
+  a {
+    &:hover {
+      color: #c96;
+      box-shadow: 0 1px 0 #c96;
+    }
+
+    &:focus {
+      color: #c96;
+      box-shadow: 0 1px 0 #c96;
+    }
+  }
+}
+
+.entry-title {
+  a {
+    &:hover {
+      color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+    }
+  }
+}
+
+.entry-cats {
+  a {
+    &:hover {
+      color: #c96;
+      box-shadow: 0 1px 0 #c96;
+    }
+
+    &:focus {
+      color: #c96;
+      box-shadow: 0 1px 0 #c96;
+    }
+  }
+}
+
+.read-more {
+  &:hover {
+    box-shadow: 0 1px 0 0 #c96;
+  }
+
+  &:focus {
+    box-shadow: 0 1px 0 0 #c96;
+  }
+}
+
+.menu-cat {
+  a {
+    &:hover {
+      color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+    }
+  }
+
+  li.active {
+    a {
+      color: #c96;
+      box-shadow: 0 1px 0 #c96;
+    }
+  }
+}
+
+.widget-search {
+  .btn {
+    &:hover {
+      color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+    }
+  }
+}
+
+.widget-cats {
+  a {
+    &:hover {
+      color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+    }
+  }
+}
+
+.posts-list {
+  a {
+    &:hover {
+      color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+    }
+  }
+}
+
+.tagcloud {
+  a {
+    &:hover {
+      color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+    }
+  }
+}
+
+.table {
+  .total-col {
+    color: #c96;
+  }
+}
+
+.btn.btn-spinner {
+  &:hover {
+    color: #c96;
+  }
+
+  &:focus {
+    color: #c96;
+  }
+}
+
+.sidebar-toggler {
+  &:hover {
+    color: #c96;
+  }
+
+  &:focus {
+    color: #c96;
+  }
+}
+
+#filter-price-range {
+  color: #c96;
+}
+
+.checkout-discount {
+  label {
+    span {
+      color: #c96;
+    }
+  }
+
+  .form-control {
+    &:focus {
+      border-color: #c96;
+    }
+  }
+}
+
+.accordion-summary {
+  .card-title {
+    a {
+      &:before {
+        border-color: #c96;
+      }
+
+      &:after {
+        background-color: #c96;
+      }
+    }
+  }
+}
+
+.paypal-link {
+  &:hover {
+    color: #c96 !important;
+  }
+
+  &:focus {
+    color: #c96 !important;
+  }
+}
+
+.coming-countdown {
+  .countdown-amount {
+    color: #c96;
+  }
+}
+
+.coming-countdown.countdown-separator {
+  .countdown-section {
+    &:not(:last-child) {
+      &:after {
+        color: #c96;
+      }
+    }
+  }
+}
+
+.contact-box {
+  a {
+    &:hover {
+      color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+    }
+  }
+}
+
+.contact-list {
+  a {
+    &:hover {
+      color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+    }
+  }
+
+  i {
+    color: #c96;
+  }
+}
+
+.store {
+  a {
+    &:not(.btn) {
+      &:hover {
+        color: #c96;
+      }
+
+      &:focus {
+        color: #c96;
+      }
+    }
+  }
+}
+
+.nav-dashboard {
+  .nav-link {
+    &:hover {
+      color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+    }
+  }
+
+  .nav-link.active {
+    color: #c96;
+  }
+}
+
+.form-tab {
+  .form-footer {
+    a {
+      &:hover {
+        color: #c96;
+      }
+
+      &:focus {
+        color: #c96;
+      }
+    }
+  }
+}
+
+.nav-filter {
+  a {
+    &:hover {
+      color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+    }
+  }
+
+  .active {
+    a {
+      color: #c96;
+      border-bottom-color: #c96;
+    }
+  }
+}
+
+.portfolio-title {
+  a {
+    &:hover {
+      color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+    }
+  }
+}
+
+.portfolio-tags {
+  a {
+    color: #c96;
+
+    &:hover {
+      color: #c96;
+      box-shadow: 0 1px 0 #c96;
+    }
+
+    &:focus {
+      color: #c96;
+      box-shadow: 0 1px 0 #c96;
+    }
+  }
+}
+
+.btn-product-gallery {
+  &:hover {
+    background-color: #c96;
+  }
+
+  &:focus {
+    background-color: #c96;
+  }
+}
+
+.product-gallery-item {
+  &:before {
+    border-color: #c96;
+  }
+}
+
+.product-pager-link {
+  &:hover {
+    color: #c96;
+
+    span {
+      box-shadow: 0 1px 0 #c96;
+    }
+  }
+
+  &:focus {
+    color: #c96;
+
+    span {
+      box-shadow: 0 1px 0 #c96;
+    }
+  }
+}
+
+.product-details {
+  .product-cat {
+    a {
+      &:hover {
+        color: #c96;
+        box-shadow: 0 1px 0 #c96;
+      }
+
+      &:focus {
+        color: #c96;
+        box-shadow: 0 1px 0 #c96;
+      }
+    }
+  }
+
+  .product-size {
+    a.active {
+      color: #c96;
+      border-color: #c96;
+    }
+
+    a {
+      &:hover {
+        color: #c96;
+        border-color: #c96;
+      }
+
+      &:focus {
+        color: #c96;
+        border-color: #c96;
+      }
+    }
+  }
+}
+
+.size-guide {
+  &:hover {
+    color: #c96;
+  }
+
+  &:focus {
+    color: #c96;
+  }
+}
+
+.product-details-action {
+  .btn-cart {
+    color: #c96;
+    border-color: #c96;
+
+    &:hover {
+      border-color: #c96;
+      background-color: #c96;
+    }
+
+    &:focus {
+      border-color: #c96;
+      background-color: #c96;
+    }
+  }
+}
+
+.product-details-tab {
+  .nav.nav-pills {
+    .nav-link {
+      &:hover {
+        color: #c96;
+        border-bottom-color: #c96;
+      }
+
+      &:focus {
+        color: #c96;
+        border-bottom-color: #c96;
+      }
+    }
+  }
+}
+
+.product-desc-content {
+  a {
+    &:hover {
+      color: #c96;
+      border-bottom-color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+      border-bottom-color: #c96;
+    }
+  }
+}
+
+.review {
+  h4 {
+    a {
+      &:hover {
+        color: #c96;
+      }
+
+      &:focus {
+        color: #c96;
+      }
+    }
+  }
+}
+
+.review-action {
+  a {
+    &:hover {
+      color: #c96;
+      box-shadow: 0 1px 0 #c96;
+    }
+
+    &:focus {
+      color: #c96;
+      box-shadow: 0 1px 0 #c96;
+    }
+  }
+}
+
+.product-details-extended {
+  .nav.nav-pills {
+    .nav-link.active {
+      border-color: #c96;
+    }
+
+    .nav-link {
+      &:hover {
+        border-color: #c96;
+      }
+
+      &:focus {
+        border-color: #c96;
+      }
+    }
+  }
+}
+
+.editor-content {
+  a {
+    &:hover {
+      color: #c96;
+      box-shadow: 0 1px 0 #c96;
+    }
+
+    &:focus {
+      color: #c96;
+      box-shadow: 0 1px 0 #c96;
+    }
+  }
+
+  blockquote {
+    border-left-color: #c96;
+  }
+}
+
+.entry-tags {
+  a {
+    &:hover {
+      color: #c96;
+    }
+
+    &:focus {
+      color: #c96;
+    }
+  }
+}
+
+.entry-author-details {
+  h4 {
+    a {
+      &:hover {
+        color: #c96;
+      }
+
+      &:focus {
+        color: #c96;
+      }
+    }
+  }
+}
+
+.author-link {
+  &:hover {
+    color: #c96;
+    box-shadow: 0 1px 0 #c96;
+  }
+
+  &:focus {
+    color: #c96;
+    box-shadow: 0 1px 0 #c96;
+  }
+}
+
+.pager-link {
+  color: #c96;
+
+  &:hover {
+    color: #c96;
+
+    &:after {
+      color: #c96;
+    }
+  }
+
+  &:focus {
+    color: #c96;
+
+    &:after {
+      color: #c96;
+    }
+  }
+}
+
+.comment-reply {
+  &:hover {
+    color: #c96;
+    box-shadow: 0 1px 0 #c96;
+  }
+
+  &:focus {
+    color: #c96;
+    box-shadow: 0 1px 0 #c96;
+  }
+}
+
+.comment-user {
+  h4 {
+    a {
+      &:hover {
+        color: #c96;
+      }
+
+      &:focus {
+        color: #c96;
+      }
+    }
+  }
+}
+
+

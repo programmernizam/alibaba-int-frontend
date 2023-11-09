@@ -1,0 +1,4 @@
+{"rules": {
+  "extends": "eslint:recommended",
+  "import/no-unused-modules": [1, {"unusedExports": true}]
+  }}
