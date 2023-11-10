@@ -39,7 +39,7 @@ const SectionsTwo = (props) => {
   return (
     <div className='container mt-2'>
       <div className="row">
-        <div className="col-12 col-md-12 col-lg-2 d-lg-flex align-items-lg-center flex-lg-column justify-content-lg-center" style={{ backgroundImage: `url(${sportsImg})`, backgroundSize: 'cover', backgroundPosition: 'center', }}>
+        <div className="col-12 col-md-12 col-lg-2 d-lg-flex align-items-lg-center flex-lg-column justify-content-lg-center mb-1" style={{ backgroundImage: `url(${sportsImg})`, backgroundSize: 'cover', backgroundPosition: 'center', }}>
      
 
           <div className="d-flex justify-content-between align-items-center flex-lg-column justify-content-lg-center">

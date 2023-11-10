@@ -181,13 +181,15 @@ const Intro = (props) => {
                   )} */}
                 </div>
               )}
-              <div className="d-flex justify-content-between align-items-center bg-white h-50" style={{overflowX:'scroll' }}>
+              <div className="d-flex justify-content-between align-items-center bg-white h-50" >
                 {
                   introItems &&
                   introItems?.map((item) => (
-                    <div className="w-100 h-auto d-flex justify-content-center align-items-center flex-column gap-4" key={item?._id}>
+                    <div className="h-auto d-flex justify-content-center align-items-center flex-column gap-4" key={item?._id}>
                       <img src={item?.img} alt="" className="w-50" />
-                      <p style={{ fontSize: '12px', fontWeight: 600 }} className="pt-2"> {item?.desc} </p>
+                      <p style={{ fontSize: '12px', fontWeight: 600, textAlign: 'center', overflowWrap: 'break-word' }} className="pt-2">
+                        {item?.desc}
+                      </p>
                     </div>
                   ))
                 }

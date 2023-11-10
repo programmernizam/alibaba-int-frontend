@@ -30,7 +30,7 @@ const MediaPart = (props) => {
             <Magnifier
               imageSrc={activeImg ? activeImg : product.MainPictureUrl}
               imageAlt={product.Title}
-              onImageLoad={true}
+              // onImageLoad={true}
               mouseActivation={MOUSE_ACTIVATION.click} // Optional
               touchActivation={TOUCH_ACTIVATION.TAP} // Optional
               fillAvailableSpace={false} // if false fillGapLeft not working

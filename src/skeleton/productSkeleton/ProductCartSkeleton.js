@@ -3,7 +3,7 @@ import Skeleton from "react-loading-skeleton";
 
 const ProductCartSkeleton = (props) => {
   return (
-    <div className="col-6 col-md-4 col-lg-4 col-xl-3">
+    <div className="col-6 col-md-4 col-lg-4 col-xl-3" >
       <div className="product product-7 mb-10x object-cover">
         <figure
           className="product-media"
