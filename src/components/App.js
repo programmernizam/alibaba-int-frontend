@@ -21,7 +21,7 @@ const App = () => {
         <MessengerChat />
       </div>
 
-      <button
+      {/* <button
         className="rounded-circle fixed-bottom download-button d-flex flex-column justify-content-center align-items-center"
         id="install-button"
       >
@@ -31,7 +31,7 @@ const App = () => {
           />
         </div>{" "}
         <div>Install App</div>
-      </button>
+      </button> */}
 
       <Footer />
     </BrowserRouter>

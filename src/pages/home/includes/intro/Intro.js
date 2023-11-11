@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import BrowseCategories from "./includes/BrowseCategories";
 
 import { connect } from "react-redux";
@@ -22,6 +22,8 @@ import airImg from "../../../../assets/images/intro/air.b1de7934.svg";
 import deliverisImg from "../../../../assets/images/intro/deliveries.1b4d2e74.svg";
 import chinaImg from "../../../../assets/images/intro/china.d3095eef.svg";
 import paymentImg from "../../../../assets/images/intro/payments.48af1724.svg"
+
+
 
 const introItems = [
   {
@@ -148,16 +150,68 @@ const Intro = (props) => {
   }
 
   return (
-    <div className="intro-section">
-      <div className="container mt-0 mt-md-1">
-        <div className="row">
-          <div className="col-lg-2 cols d-none d-lg-block mb-1 pr-0 ">
+    // <div className="intro-section">
+    //   <div className="container mt-0 mt-md-1">
+    //     <div className="row">
+    //       <div className="col-lg-2 cols d-none d-lg-block mb-1 pr-0">
+    //         <BrowseCategories />
+    //       </div>
+    //       <div className="col-lg-10 cols col-md-12 col-12 mb-1 pr-0">
+    //         <div className="h-100 intro-center">
+    //           {width >= 768 ? (
+    //             <div className="intro-slider-container br-8">
+    //               {banners.banners && !loading ? (
+    //                 <IntroBanner banners={banners.banners} width={width} />
+    //               ) : (
+    //                 <BannerSkeleton />
+    //               )}
+    //             </div>
+    //           ) : (
+    //             <div className="intro-slider-container br-8 h-75">
+    //               {banners.mobileBanners && !loading ? (
+    //                 <IntroBanner
+    //                   banners={banners.mobileBanners}
+    //                   width={width}
+    //                 />
+    //               ) : (
+    //                 <BannerSkeleton />
+    //               )}
+    //               {/* {banners.banners && !loading ? (
+    //                 <IntroBanner banners={banners.banners} width={width} />
+    //               ) : (
+    //                 <BannerSkeleton />
+    //               )} */}
+    //             </div>
+    //           )}
+    //           <div className="d-flex justify-content-between align-items-center bg-white py-3" >
+    //             {
+    //               introItems &&
+    //               introItems?.map((item) => (
+    //                 <div className="h-auto d-flex justify-content-center align-items-center flex-column gap-4" key={item?._id}>
+    //                   <img src={item?.img} alt="" className="w-50" />
+    //                   <p style={{ fontSize: '12px', fontWeight: 600, textAlign: 'center', overflowWrap: 'break-word' }} className="pt-2">
+    //                     {item?.desc}
+    //                   </p>
+    //                 </div>
+    //               ))
+    //             }
+    //           </div>
+    //         </div>
+    //       </div>
+
+    //     </div>
+    //   </div>
+    // </div>
+    <Fragment>
+      <div className="container mt-1  px-2">
+        <div className="row" style={{ height: '52vh'}}>
+          <div style={{ overflowY: 'scroll', height:'50vh'}} className="col-lg-2 cols d-none d-lg-block d-md-block col-md-2 mb-1 pr-0">
             <BrowseCategories />
           </div>
-          <div className="col-lg-10 cols col-md-12 col-12 mb-1 pr-0">
-            <div className="h-100 intro-center">
+          <div className="col-lg-10 cols col-12 col-md-10 h-md-100">
+            <div className="">
               {width >= 768 ? (
-                <div className="intro-slider-container br-8">
+                <div className="br-8 w-100">
                   {banners.banners && !loading ? (
                     <IntroBanner banners={banners.banners} width={width} />
                   ) : (
@@ -181,25 +235,24 @@ const Intro = (props) => {
                   )} */}
                 </div>
               )}
-              <div className="d-flex justify-content-between align-items-center bg-white h-50" >
-                {
-                  introItems &&
-                  introItems?.map((item) => (
-                    <div className="h-auto d-flex justify-content-center align-items-center flex-column gap-4" key={item?._id}>
-                      <img src={item?.img} alt="" className="w-50" />
-                      <p style={{ fontSize: '12px', fontWeight: 600, textAlign: 'center', overflowWrap: 'break-word' }} className="pt-2">
-                        {item?.desc}
-                      </p>
-                    </div>
-                  ))
-                }
-              </div>
+            </div>
+            <div className="d-flex justify-content-between align-items-center bg-white py-1" >
+              {
+                introItems &&
+                introItems?.map((item) => (
+                  <div className="h-auto d-flex justify-content-center align-items-center flex-column gap-4" key={item?._id}>
+                    <img src={item?.img} alt="" className="w-50" />
+                    <p style={{ fontSize: '12px', fontWeight: 600, textAlign: 'center', overflowWrap: 'break-word' }} className="pt-2">
+                      {item?.desc}
+                    </p>
+                  </div>
+                ))
+              }
             </div>
           </div>
-
         </div>
       </div>
-    </div>
+    </Fragment>
   );
 };
 

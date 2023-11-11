@@ -10,7 +10,7 @@ import "./scss/Icon.scss";
 import "./scss/App.scss";
 import { instanceAuthToken } from "./utils/AxiosDefault";
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
-
+import './utils/index.css';
 
 const auth = window.localStorage.getItem("_auth");
 const shopAsCustomer = window.localStorage.getItem("_shopAsCustomer");
